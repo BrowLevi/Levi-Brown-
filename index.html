@@ -1,57 +1,93 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Levi Brown — About</title>
+  <meta name="description" content="Personal page for Levi Brown — pickleball player, hiker, follower of Jesus, family-oriented. Born June 11, 2008 in Muncie, Indiana.">
+  <style>
+    :root{
+      --purple:#6a1b9a;
+      --bg:#fafafa;
+      --text:#222;
+      --muted:#555;
+      --card:#fff;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:linear-gradient(135deg,var(--purple),#8e24aa);color:white;padding:48px 20px;text-align:center}
+    header h1{margin:0;font-size:clamp(28px,5vw,48px)}
+    header p{margin:8px 0 0;font-size:1rem;opacity:0.95}
+    main{max-width:1000px;margin:-32px auto 64px;padding:20px}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.06);padding:28px;margin-bottom:20px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+    h2{color:var(--purple);margin-top:0}
+    .small{color:var(--muted);font-size:0.95rem}
+    ul.plain{list-style:none;padding:0;margin:0}
+    ul.plain li{padding:6px 0;border-bottom:1px dashed #eee}
+    .profile-meta p{margin:6px 0}
+    footer{text-align:center;color:var(--muted);padding:24px 12px}
+    .hero-badge{display:inline-block;background:rgba(255,255,255,0.08);padding:8px 12px;border-radius:999px;margin-top:12px;font-weight:600}
+    .contact a{color:var(--purple);text-decoration:none;font-weight:600}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Levi Brown</h1>
+    <p class="hero-badge">Pickleball player • Hiker • Follower of Jesus</p>
+  </header>
 
-<html lang="en"> 
+  <main>
+    <div class="grid">
+      <section class="card about">
+        <h2>About Me</h2>
+        <p class="small">Hi there! My name is Levi Brown and I am 18 years old. I was born on June 11th, 2008 in Muncie, Indiana. I enjoy staying active — especially playing pickleball and going on hiking adventures. I also love sharing my faith and talking about the Lord and Savior Jesus Christ with others.</p>
 
-     <head> 
+        <h3 style="margin-top:18px">Quick facts</h3>
+        <ul class="plain">
+          <li><strong>Full name:</strong> Levi Brown</li>
+          <li><strong>Age:</strong> 18</li>
+          <li><strong>Birthday:</strong> June 11, 2008</li>
+          <li><strong>Hometown:</strong> Muncie, Indiana</li>
+          <li><strong>Interests:</strong> Pickleball, hiking, faith conversations</li>
+        </ul>
 
-          <meta charset="utf-8"> 
+        <h3 style="margin-top:18px">Family & Pets</h3>
+        <p class="small">I have three siblings named Hunter, Beau, and Rider. We also have five pets at home. Family time and caring for our pets are important parts of my life.</p>
 
-          <title>Levi Brown</title> 
+        <h3 style="margin-top:18px">More about me</h3>
+        <p class="small">I love meeting new people on the court or on the trail. If you'd like to chat about pickleball strategies, local hiking spots, or faith, I'm always open to conversation.</p>
+      </section>
 
-          <style>
-               header {
-                    background-color: purple;
-                    color: white;
-                    padding: 20px;
-                    text-align: center;
-               }
-               
-               header h1 {
-                    margin: 0;
-                    font-size: 36px;
-               }
-               
-               .about-me {
-                    padding: 40px;
-                    max-width: 800px;
-                    margin: 0 auto;
-               }
-               
-               .about-me h2 {
-                    color: purple;
-                    font-size: 28px;
-               }
-               
-               .about-me p {
-                    font-size: 16px;
-                    line-height: 1.6;
-                    color: #333;
-               }
-          </style>
+      <aside class="card profile-meta">
+        <h2>Contact</h2>
+        <p class="small contact">If you'd like to reach out, you can connect on social media or email (add your preferred contact here).</p>
 
-     </head> 
+        <h2 style="margin-top:18px">Hobbies</h2>
+        <ul class="plain">
+          <li>Pickleball — training and matches</li>
+          <li>Hiking — trails and nature</li>
+          <li>Faith conversations and community involvement</li>
+        </ul>
 
-     <body> 
+        <h2 style="margin-top:18px">Places I love</h2>
+        <p class="small">Muncie, Indiana — local parks and trails for hiking and outdoor activities.</p>
+      </aside>
+    </div>
 
-          <header>
-               <h1>Levi Brown</h1>
-          </header>
+    <section class="card">
+      <h2>My Story</h2>
+      <p class="small">I grew up in Muncie with my family and developed a love for the outdoors early on. Pickleball became a big part of my life as a way to stay active and build friendships. Hiking gives me space to think and enjoy God's creation. Sharing my faith is central to who I am — I aim to live out my beliefs through kindness and conversation.</p>
 
-          <section class="about-me">
-               <h2>My name is Levi Brown and I am 18 years old. I love to play pickleball and go on hiking adventures. I love to talk about the Lord and Savior Jesus Christ to others and talk about mental health to others as well. I am also a history tutor online for any students. The students can be freshman in high school or even seniors in college. I just love History so much that I can write a whole book of every event detailed. I love to share kindess and excitements towards others to make them feel seen and happy and it'll just put a smile on my face to see them happy. Thank you very much for you to see my About me and hope you get to know meet me in person and talk about anything you want! =D </h2>
-               <p>Hi there! My name is Levi Brown and I am 18 years old. I was born on June 11th, 2008 in Muncie, Indiana. I have three siblings named Hunter, Beau, and Rider. I also have five pets, three dogs and two cats. I like to say that I am very adventurous person and love to talk about sports. I love playing pickleball, going on runs and bike rides, and love to talk about any thriller movie.</p>
-          </section>
+      <h3 style="margin-top:16px">Favorite local trail</h3>
+      <p class="small">I like exploring nearby trails and finding new spots to hike with friends and family. If you have trail suggestions, I'd love to hear them.</p>
+    </section>
+  </main>
 
-     </body> 
-
-</html> 
+  <footer>
+    <p>Made with care by Levi Brown • Born in Muncie, Indiana • © 2026</p>
+  </footer>
+</body>
+</html>
